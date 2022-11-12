@@ -1,0 +1,141 @@
+.Button {
+    padding-left: 100px;
+    padding-top: 100px;
+}
+.Button button{
+    padding: 5px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    margin: 10px 0 10px 0;
+    cursor: pointer;
+}
+.Button p{
+    font-size: 20px;
+}
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    width: 550px;
+}
+
+p {
+    margin: 0;
+}
+
+.leftPart {
+    display: flex;
+    /* justify-content: flex-start; */
+    align-items: center;
+}
+
+.mainContainer .shareToWeb {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+    border-bottom: 1px solid lightgrey;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.mainContainer .shareToWeb .leftPart {
+    display: flex;
+}
+
+.mainContainer .shareToWeb .leftPart .text {
+    padding-left: 10px;
+}
+
+.mainContainer .searchBox {
+    display: flex;
+    height: 80px;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.mainContainer .searchBox input {
+    width: 100%;
+    padding: 13.5px;
+    border-radius: 10px 0 0 10px;
+    border: 1px solid lightgrey;
+    font-size: 16px;
+}
+
+.mainContainer .searchBox label {
+    background-color: #F9FAFB;
+    /* height: 104%; */
+    padding: 13.5px;
+    border: 1px solid lightgrey;
+    border-left: none;
+    width: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0 10px 10px 0;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.mainContainer .Oslash {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 60px;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.mainContainer .Oslash .logo img {
+    border-radius: 50%;
+}
+
+.mainContainer .Oslash .leftPart {
+    display: flex;
+}
+
+.mainContainer .Oslash .leftPart .text {
+    padding-left: 10px;
+}
+
+.mainContainer .Oslash .rightPart select {
+    border: none;
+    cursor: pointer;
+}
+
+.mainContainer .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background-color: #F9FAFB;
+    border-radius: 0px 0px 10px 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-top: 1px solid lightgrey;
+    box-sizing: border-box;
+}
+
+.footer .right{
+    display: flex;
+    align-items: center;
+}
+.footer span{
+    padding-left: 5px;
+    padding-bottom: 5px;
+    cursor: pointer;
+}
+
+.faint{
+    color: grey;
+}
+.bold{
+    font-weight: 500;
+}
